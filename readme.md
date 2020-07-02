@@ -5,7 +5,7 @@
 - Set to serve any static frontend with commented out code for serving ReactJS frontend in specific
 - Activity logger
 - Crash logger
-- Include example CRUD API endpoints
+- Includes example CRUD API endpoints
 - Much more...
 
 ## Libraries:
@@ -28,7 +28,7 @@
     │   ├── routes              //routes of the server
     │   │   └── api
     │   │       ├── main        //base files for each of the API versions
-    │   │       └── v1          //directory that contains all of the routers for all the endpoints of that API version
+    │   │       └── v1          //all the routers for the endpoints of that API version
     │   ├── utils               //utility files (like DB pool, app error class, etc...)
     │   ├── app.js
     │   └── server.js
