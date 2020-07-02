@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJS + Express + MySQL - Boilareplate</title>
+</head>
+<body>
+    <h1>Main page</h1>
+    <a id="random-href" href="/404">Go to a page that doesn't exist (to see the 404 page)</a>
+    <script>
+        //setting a random non-existing href to the above anchor tag to test the 404 page
+        window.onload = document.getElementById("random-href").href = new Date().getTime();
+    </script>
+</body>
+</html>
